@@ -8,6 +8,7 @@ This repository packages one shared Agent Skill for both Codex and Claude Code. 
 - downloadable captions or transcript placeholders
 - cleaned transcripts
 - detailed summaries
+- simple chapter-level timestamps
 - tags
 - Markdown / CSV / JSON indexes
 - chatbot-ready search data
@@ -92,6 +93,7 @@ The skill asks the agent to create an output folder like this:
 - Normal videos are treated separately from Shorts.
 - Captions are retrieved in language passes, usually `ja-orig`, then `ja`, then `en`.
 - Missing captions are logged instead of being silently treated as transcripts.
+- Timeline notes should stay simple: a few chapter-level timestamps, not one timestamp per caption line.
 - For large channels, search the generated indexes first and only inspect full transcripts for shortlisted videos.
 
 ## License

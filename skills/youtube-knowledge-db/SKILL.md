@@ -84,13 +84,17 @@ Detailed, topic-oriented summary.
 - Point
 
 ## Timeline Notes
-- [00:00] Topic
+- [00:00] Opening or topic setup
+- [03:20] Main topic or explanation
+- [08:45] Exercise, method, example, or key shift
 
 ## Cleaned Transcript
 ...
 ```
 
 Clean obvious caption fragmentation, repeated fillers, spacing artifacts, and simple transcription noise. Keep meaning conservative. When unsure, preserve the original wording rather than rewriting aggressively.
+
+Keep Timeline Notes lightweight. Use only broad chapter-level timestamps, usually 3-8 entries per video. Prefer topic changes, demonstrations, conclusions, and practical steps. Do not create a timestamp for every caption line or every sentence.
 
 ## Tagging
 
@@ -132,6 +136,7 @@ Use the index first for retrieval, then read full transcripts only for the short
 - Use tools and scripts for acquisition, parsing, counting, and deterministic file generation.
 - Keep raw transcript text on disk; do not paste large transcripts into the conversation.
 - Summarize per video in batches and store results immediately.
+- Keep timestamps concise: chapter-level notes only, not line-by-line timestamped transcripts.
 - For answering questions later, search the index first, then inspect only the top matches.
 - Put long implementation details in scripts or references, not in chat.
 
