@@ -1,0 +1,36 @@
+{
+  "name": "youtube-knowledge-db",
+  "version": "0.1.0",
+  "description": "Convert YouTube channels into searchable transcript, summary, tag, and chatbot knowledge bases.",
+  "author": {
+    "name": "honami341",
+    "url": "https://github.com/honami341"
+  },
+  "repository": "https://github.com/honami341/youtube-knowledge-db",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "transcripts",
+    "summaries",
+    "knowledge-base",
+    "rag",
+    "chatbot"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube Knowledge DB",
+    "shortDescription": "Turn YouTube channels into searchable AI knowledge bases.",
+    "longDescription": "A reusable workflow for collecting YouTube video lists, retrieving available captions, cleaning transcripts, generating detailed summaries, tagging videos, building indexes, and preparing chatbot-ready search data.",
+    "developerName": "honami341",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Convert this YouTube channel into a knowledge DB.",
+      "Build transcript summaries and tags for this channel.",
+      "Create chatbot search data from these videos."
+    ]
+  }
+}
