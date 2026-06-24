@@ -1,5 +1,6 @@
 # YouTube Knowledge DB
 
+
 学びたい分野の YouTube チャンネルを、まるごと AI 教材・検索可能な知識 DB に変換するための Claude Code / Codex 向け Skill / Plugin です。
 
 この plugin / skill は、YouTube チャンネルを次のような再利用しやすいデータに変換するワークフローを提供します。
