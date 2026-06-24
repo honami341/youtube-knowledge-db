@@ -1,0 +1,19 @@
+{
+  "name": "youtube-knowledge-db-plugins",
+  "owner": {
+    "name": "honami341",
+    "url": "https://github.com/honami341"
+  },
+  "plugins": [
+    {
+      "name": "youtube-knowledge-db",
+      "source": {
+        "source": "github",
+        "repo": "honami341/youtube-knowledge-db"
+      },
+      "description": "Convert YouTube channels into searchable transcript, summary, tag, and chatbot knowledge bases.",
+      "version": "0.2.0",
+      "category": "productivity"
+    }
+  ]
+}

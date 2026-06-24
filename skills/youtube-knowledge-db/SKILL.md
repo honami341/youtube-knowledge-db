@@ -9,6 +9,13 @@ description: Convert a YouTube channel into a searchable reusable knowledge data
 
 Turn a YouTube channel into a local knowledge base that can be searched and reused by an AI assistant. Produce source-preserving artifacts: raw metadata, raw captions, cleaned transcripts, detailed video summaries, tags, indexes, missing-caption logs, and chatbot search data.
 
+Invocation names may differ by installation method:
+
+- Plugin install: `/youtube-knowledge-db:youtube-knowledge-db`
+- Manual skill install: `/youtube-knowledge-db`
+
+If one invocation is unavailable, try the other before assuming the skill is missing.
+
 ## Fast Workflow
 
 1. Confirm the target URL and output root. If the user does not specify a root, create a clearly named folder on the Desktop or in the current workspace.
